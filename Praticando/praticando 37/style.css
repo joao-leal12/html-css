@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+body{
+
+    height: 100%;
+
+}
+
+.center{
+
+    padding: 0 2%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+
+
+}
+
+
+.menu {
+
+text-align: center;
+margin: 10px 4px;
+}
+
+.menu a{
+    
+    padding: 0 10px;
+
+
+}
+
+.logo{
+    padding: 10px 0;
+    margin-bottom: 10px;
+
+
+}
+
+
+
+header{
+
+
+
+
+}
+
+
+

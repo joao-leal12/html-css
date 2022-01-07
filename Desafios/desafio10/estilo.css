@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@font-face{
+
+    font-family:'droid';
+
+    src: url('fontes/idroid.otf') format('opentype');
+
+
+}
+:root{
+
+    --color: #84E1AD;
+    --color01:#233b2e;
+    --color02:#213529; 
+    --transiçao: 0.6s;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+
+}
+
+body{
+
+  font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color);
+} 
+
+
+
+header{
+
+background-image: linear-gradient(to top, #84E1AD, #233b2e);
+height: 150px;
+}
+
+
+.sec-head > h1{
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+
+   
+}
+
+.sec-head > p{
+
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+   
+}
+
+nav{
+
+background-color: #213529;
+
+padding: 5px;
+    
+}
+
+nav > a{
+    text-decoration: none;
+   color: #fff;
+   padding: 0 10px; 
+    margin: 0 10px;
+    transition: var(--transiçao);
+}   
+nav > a:hover{
+
+text-decoration: underline;
+color: var(--color);
+
+}
+
+
+main{
+    padding: 0 30px;
+    background-color: #84E1AD;
+    margin:auto;    
+   max-width:800px;
+   min-width: 300px;
+}   
+
+
+
+main > h2{
+
+    font: normal normal 1.5em 'droid';
+    color: var(--color01);
+    
+}
+
+h3{
+
+    font-family: 'droid';
+
+
+}
+
+#conteudo-primario{
+
+    padding: 20px 30px;      
+    background-color: #fff;
+     margin: auto;
+}
+
+#conteudo-primario img{
+display: block;
+margin: auto;       
+width: 100%;
+
+}
+
+
+
+
+
+
+
+
+.classe-video{
+
+    background-color: #1a2e23;
+    padding: 20px;
+    
+  
+    
+}
+
+
+
+.seçao-dois{
+
+   
+    background-color:#1a2e23;
+    padding: 20px;
+    margin: auto;
+}
+
+.periferico-dois{
+
+
+
+
+}
+
+
+
+
+
+.subtitulo-terceiro{
+
+background-color: #1a2e23;
+padding: 10px;
+border-radius: 10px;
+
+}
+
+
+
+.subtitulo-terceiro > p{
+
+    color: #fff;
+    font: normal bold 1em Arial,Helvetica,sans-serif;
+    margin: 5px 0;
+
+
+
+}
+
+
+
+.seçao-dois > iframe{   
+
+
+    display: block;
+    margin:auto;
+    
+
+}
+
+
+
+.secao-especial{
+
+background-color: #fff;
+
+margin: auto;
+padding: 20px;
+
+}
+
+.periferico-quatro{
+
+    background-color:#84E1AD;
+    padding: 10px;
+
+
+}
+
+footer{
+
+    background-color: var(--color01);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0; 
+
+}
+
+
+
+#conteudo-primario .img-esp{
+
+    width: 50%;
+
+}
+
+
+
+#conteudo-primario > h2{
+
+    color: var(--color);
+
+
+}
+
+main p{
+
+    text-align: justify;
+    margin: 10px 0;   
+
+}

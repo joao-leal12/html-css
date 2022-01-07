@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+
+}
+body{
+    background: url('arquivos-necessarios/imagens/fundo.png') repeat-x top left;    
+
+
+}
+ul{
+    list-style-type: none;
+
+
+}
+
+#container{
+
+    width: 750px;
+    margin: 0 auto;
+    
+
+
+
+}
+
+
+#logo{
+
+    
+    height: 150px;
+    background: url('arquivos-necessarios/imagens/detalhe-topo.png') no-repeat right top;        
+    padding-top: 25px;
+
+
+
+} 
+
+
+.logo{
+
+    background: url('arquivos-necessarios/imagens/logo.png') no-repeat left top;
+    width: 152px;
+    height: 66px;
+    text-indent: -3000px;
+
+}   
+
+
+
+#logo ul{
+    list-style-type: none;
+    background: #b10333;   
+    float: left;
+    margin-top: 30px;
+
+}
+
+#logo ul li{
+    
+    float: left;
+    
+}
+
+
+#logo ul a{
+    
+    
+    display: block;
+    color: #fff;
+   text-decoration: none;     
+    background: url('arquivos-necessarios/imagens/divisor.png') no-repeat left center;
+    font-size: 0.9em;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+  
+
+}
+
+
+#logo .marcador a{
+
+    background: none;
+
+}
+
+#logo ul a:hover{
+    color: #69001b;
+
+
+
+}
+
+
+
+
+.corpo #list .home, 
+.brasil #list .brasil{
+    background-color: #de003c;
+    color: rgb(255, 255, 255);
+    cursor: text;
+
+}
+
+
+/* Parte de contudo********************************************/
+
+
+
+.main{
+    margin-top: 60px;
+   
+     background-color: #f4f3f3;
+       
+    
+
+
+}
+
+
+#primario{
+    width: 270px;
+    float: left;
+   
+    margin: 0 0 20px 195px;
+}
+
+.img{
+
+    margin-top: 5px;
+    padding: 5px;
+    background: #fff;
+
+
+}
+
+.img img{
+    width: 98%; 
+    border: 2px solid #dfdfdf;
+
+
+}
+
+.img h3{
+    display: inline; 
+    padding:   5px;
+    color: #fff;
+    font-size: 0.8em;
+    background: #b10333;
+    text-transform: uppercase;
+
+}
+
+
+.secundario{
+    width: 270px;
+    float: left;
+    
+    margin: 0 0 20px 0;  
+}
+
+.destaque h3{
+
+    color: #000;
+
+
+
+}
+
+#lateral{
+
+    width: 180px;
+    float: left;
+   
+    margin: 0 0 20px -750px;
+  
+
+}
+
+
+
+.caixa{
+    background: url('arquivos-necessarios/imagens/fundo-caixa.png');
+    padding: 5px;
+    margin: 10px 0;
+
+}
+
+.caixa h2{
+    background: #294c71;
+    font-size: 1em;
+    padding: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}
+
+.caixa .ul{
+
+    background-color: white;        
+   
+
+} 
+.rodape{
+    
+    background-color: #294c71;
+    padding: 20px;
+    clear: both;    
+}
+
+
+.rodape-content{
+
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+
+
+}
+
+.rodape-content h6{
+
+    text-align: center;
+    font-size: 14px;
+
+
+}
+
+
+#duas-colunas #primario{
+    
+    width: 555px;
+
+}
+
+#uma-coluna .primario{
+
+    width: 750px;
+    margin: 0 0 20px 0;
+
+}
+
+
+#lateral ul a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 3px;
+    border-bottom: 1px solid #f3f3f3;
+    font-size: 0.9em;
+    line-height: 30px;
+}
+
+#lateral ul a:hover{
+    padding-left:25px;
+    background: url('arquivos-necessarios/imagens/marcador.png') no-repeat left center;
+
+
+
+}
+
+    label{
+
+        display: block;
+        cursor: pointer;
+        margin-top: 7px;
+
+    }
+
+
+#lateral input{
+    
+    width: 125px;
+    padding: 5px;
+    font-size: 0.9em;
+    
+}
+
+#lateral input[type="submit"] {
+
+    width: 80px;
+    color: #fff;
+    background: #b10333;
+    border: 2px solid #870529;
+   
+
+}
+
+
+.caixa .listas img{
+    width: 80px;
+
+
+
+}
+#list-last  li{
+    height: 62px;
+ 
+    padding: 2px;
+    
+
+}
+#list-last li a img{
+    width: 80px;
+    float: left;    
+   
+    border: none;
+    margin  : 5px;
+
+}
+
+
+#list-last li{
+   
+    padding: 2px;
+
+
+}
+
+#list-last li:hover{
+    cursor: pointer;
+    background-color:#eee;
+
+
+
+}
+
+#list-last li  a{
+    text-decoration: none;
+
+
+
+
+}
+
+
+#list-last li  h3{
+    font-size: 0.8em;
+    color: #3e7ab9;
+    background: none;
+}
+
+#list-last li a p{
+
+    color: #000;
+    font-size: 0.8em;
+
+
+}

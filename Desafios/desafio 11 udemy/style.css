@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+
+
+.center{
+    height: 80px;
+    position: relative;
+
+
+}
+.logo{
+    margin-left: 7%;
+    margin-top: 50px; 
+    
+}
+
+logo img{
+
+  
+    
+}
+
+nav{
+    right: 6%;
+    position: absolute;
+    top: 40%;
+
+}
+
+nav a{
+        margin: 5px;
+        text-decoration: none;
+
+
+}
+main{
+ margin: auto;  
+    max-width: 1200px;
+
+}
+
+
+.img{
+
+   
+
+}
+
+.img img{
+    width: 1200px;
+    margin: auto;
+    display: block;
+    
+
+}
+

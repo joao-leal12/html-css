@@ -1,0 +1,309 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+
+    background: url('arquivos-necessarios/imagens/fundo.png') repeat right center ; 
+    height: 233px;
+     
+
+}
+
+.imagens{
+
+    width: 100%;
+    position: relative;
+
+
+}
+.img-1{
+    padding-top: 80px;
+    background: url('arquivos-necessarios/imagens/detalhe-topo.png') no-repeat right bottom;
+    height: 100px;
+    margin-right: 20%;  
+    width: 80%;
+
+
+}
+
+
+
+.img-2{
+
+    background: url('arquivos-necessarios/imagens/logo.png') no-repeat left top;
+    height: 80px;
+    width: 20%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+
+}
+
+
+nav{
+    position: absolute;
+    left: 50%;
+    top: 120px;
+    transform: translateX(-50%);
+    border: 1px solid rgb(173, 29, 65);
+    background-color:rgb(173, 29, 65);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.671);
+    border-radius: 2px;
+}
+
+
+nav > a{
+    color: #fff;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 25px;
+
+}
+
+nav a:hover,
+.home 
+{
+    transition-duration: 0.5s;
+    background-color:rgb(231, 43, 90);
+}
+
+ /*parte do conteudo***************/
+main{
+    
+    max-width: 1000px;
+    min-width: 350px;
+
+    margin: 0 auto;
+    background: url('arquivos-necessarios/imagens/fundo-caixa.png') repeat center center;    
+
+}
+
+
+#first{ 
+ 
+    float: left;
+    width: 100%;
+    margin: 12px auto;
+
+}
+
+.coluna{
+
+    width: 20%;
+    float: left;
+  
+}
+
+.coluna ul{
+    border: 1px solid black;
+    list-style: none;
+
+}
+.coluna h3{
+
+    color: #fff;
+    background-color: rgb(79, 79, 124);
+    padding: 8px 0;
+    text-align:  center;
+
+}
+
+li > a{
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+    padding: 18px 0;
+    display: block;
+}
+
+li > a:hover{
+
+    text-decoration: underline;
+    
+
+}
+
+
+article{
+    width: 75%;
+    float: left;
+    
+
+}
+article p{
+
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 8px;
+
+}
+
+article h4{
+
+    margin-bottom: 7px;
+    text-transform: uppercase;
+
+}
+article a{
+
+    color:rgb(173, 29, 65);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.img-um{
+    width: 40%;
+    float: left;
+    
+    margin-left: 50px;
+
+
+}
+.img-um > h3{
+    width: 100%;
+    background-color:rgb(79, 79, 124);
+    color: #fff;
+    padding: 8px 0;
+    text-align: center;
+
+}
+.img-um h4{
+
+    width: 100%;
+    color: #fff;
+    background-color:rgb(173, 29, 65);
+    margin-top: 10px;
+    padding: 10px 0;
+    
+
+}
+
+.img-um img{
+
+    width: 100%;
+
+
+}
+
+.img-dois{
+
+    float: left;
+    width: 40%; 
+    margin-left: 50px;
+}
+
+
+.img-dois h3{
+
+    width: 100%;
+    background-color:rgb(79, 79, 124);
+    color: #fff;
+    padding: 8px 0;
+    text-align: center;
+    
+}
+
+.img-dois h4{
+
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    background-color:rgb(173, 29, 65);
+    margin-top: 10px;
+    
+    
+    padding: 10px 0;
+
+}
+
+
+.img-dois img{
+
+    width: 100%;
+
+
+}
+
+.tres{
+    margin-top: 20px;
+    width: 45%;
+    float: left;
+   
+}   
+
+.tres img{
+
+    float: left;
+    width: 30%; 
+}
+
+.tres p{
+  
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 12px;    
+    float: left;
+    width: 50%;
+    
+}
+
+.tres .especial{
+    background: none;
+    color: rgb(142, 142, 241);
+    margin-left: 12px;   
+    font-size: 1em;
+    text-align: left;
+    position: relative;
+    top: 6px;
+    float: left;
+    width: 50%; 
+
+}
+.esp{
+        margin-top: 20px;
+
+
+}
+
+.img-col  p{
+
+   
+    font-size: 0.8em;   
+   
+
+}
+
+.img-col p, .especial{
+
+    margin-left: 12px;
+   
+}
+
+    
+
+.quatro{
+
+    margin-top: 20px;
+
+
+}
+
+.quatro img{
+    width: 10%;
+    
+
+
+}
+

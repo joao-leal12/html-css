@@ -1,0 +1,185 @@
+
+@font-face{
+
+    font-family:'TESLA';
+
+    src: url('fontes/TESLA.ttf') format('truetype');
+
+
+
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+:root{
+
+    --font01: 'Tesla';
+    --fonte02: Arial, Helvetica, sans-serif;
+
+
+}
+
+#container{
+
+    max-width: 1280px;
+    min-width: 600px;
+    padding: 0 2%;
+    
+
+
+
+
+}
+#container .topo    {
+    margin-top: 16px;
+    font-family:'Tesla';
+    letter-spacing: 10px;
+    display: inline-block;
+    font-weight: normal;
+    margin-left: 12px;
+    font-size: 20px;
+    
+}
+
+#container .idioma{
+    float: right;
+    margin-top: 20px;
+    display: block;
+
+}
+
+
+#form{
+
+    margin: 0 auto;
+    width: 100%;    
+    text-align: center;
+
+}
+
+    #form .main{
+        font-size: 40px;
+        margin-right: 130px;
+        padding: 15px;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+   
+    }
+
+
+fieldset{
+
+   
+    border: transparent;
+
+}
+
+
+
+label{
+
+    display: block;
+    margin: 7px 0;
+    width: 83%;
+    text-indent: 14px;q
+
+}
+
+
+
+input, select{
+    background-color: rgba(204, 204, 204, 0.596);
+    width: 25%;
+    height: 40px;
+    border-radius: 20px;    
+    border: transparent;
+  
+}
+input{
+     
+    margin-top: 12px;
+    margin-bottom: 7px;
+
+
+}
+
+
+
+select{
+    text-indent: 15px;
+    margin-bottom: 20px;
+
+}
+
+.check{
+
+    height: 90px;
+    width: 30px;
+    margin-bottom: 20px;
+  
+    border-radius: 10px;
+    
+
+
+}
+
+.box-check{
+
+    position: relative;
+    bottom: 55px;
+    top: -35px;
+
+
+}
+.box-check p{
+
+    min-width: 500px;
+    
+
+}
+
+#form .box{
+
+    width: 20%;
+    display: inline-block;
+    font-size: 18px;
+
+
+}
+   
+
+.label{
+   line-height: 0;
+   
+}
+
+
+.botao{
+
+    position: relative;
+    bottom: 40px;
+
+}
+
+
+.btn-um{
+    background-color: blue;
+    color: #fff;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.432);
+
+
+}
+
+.btn-um:hover{
+
+    background-color: darkblue;
+    font-weight: bold;
+    
+
+
+}

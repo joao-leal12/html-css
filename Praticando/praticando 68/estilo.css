@@ -1,0 +1,169 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+    ul{
+
+        list-style: none;
+        
+
+
+    }
+   
+
+    header{
+        min-width: 350px;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 250px;;
+        background-image: url('imagens/topo-imagem-principal.png');
+        background-repeat: no-repeat;
+        background-position: left center;
+        margin-top: 15px;
+        
+        
+    }
+
+    .topo{
+        
+        min-width: 900px;
+        background: url('imagens/topo-imagem-lateral.png') no-repeat right bottom;
+        height: 250px;
+
+
+    }
+
+
+    .img-esquerda{
+        background: url('imagens/logo.png') no-repeat left top;
+        height: 66px;
+        margin-left: 13px; 
+
+
+    }
+
+    nav{
+        width: 45%;    
+        float: right;
+        margin-top: -30px;
+
+    }
+    nav ul{
+        
+        
+
+
+    }
+    nav ul a{
+
+        display: block;
+        padding: 6px;
+        font-size: 1.2em;
+        text-decoration: none;
+        color: black;
+
+
+    }
+
+    nav  p{
+
+        padding: 12px 0;
+        margin-top: -25px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    nav p a{
+
+        margin-left: 10%;
+        text-decoration: none;
+        background-color: green;
+        color: #fff;
+        display: inline-block;
+        padding: 3px  10px;
+    }
+
+    .img-lateral{
+
+        background: url('imagens/depoimento.png') no-repeat right center;
+        height: 164px;
+        margin-right: 10%;
+
+
+
+    }
+
+
+    main{
+        height: 600px;
+        max-height: 100%;
+        background: url('imagens/bg-container.png') repeat-y center center;   
+        min-width: 350px;
+        max-width: 1200px;
+        margin: 12px auto;
+        padding: 0 0.3%;   
+
+    }
+
+    .caixa-um{
+
+        float: left;
+        width: 45%;
+        padding: 7px;
+
+
+    }
+
+
+    .caixa-dois{
+        padding: 7px;
+        float: right;
+        width: 45%;
+
+
+
+    }
+    .caixa-dois li{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black; 
+        height: 120px;
+
+
+    }
+
+    .caixa-dois li a img{
+
+        width: 30%;
+        float: left;
+        margin: 4px;
+
+    }
+
+    .caixa-dois li a { 
+
+        text-decoration: none;
+        color: black;
+        display: block;
+
+
+    }
+    .caixa-dois li a h3{
+
+        font-weight: bold;
+        font-size: 1.2em;
+       
+    }
+
+
+    .caixa-dois li a p{
+
+        font-weight: normal;
+        font-size: 1em;
+     
+
+
+    }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outras formatações</title>
+
+</head>
+<body>
+<h1>Outras formatações</h1>
+<h2>Código-fonte</h2>
+<p>O comando <code>document.getElementById<!('teste')</code> é escrito em linguagem JavaScript</p>
+<pre>
+<code>
+num = int(input('Digite um número'))
+if num % 2 == 0;
+    print(f'0 número {num} é PAR')
+else;
+    print(f'0 número {num} é ÍMPAR')
+print('Fim do programa')
+</pre>
+</code><!--Ao usarmos a tag code deixamos o codigo escrito de forma mono-espaçadas, oque fica mais facil de ler sendo codigo, porem não altera na organização textual dela, para organizarmos textual de forma a espaço e quebra de linhas, podemos usar uma tag chamada <pre>,colocamos a tag <code> dentro da tag <pre>, essa tag faz com que tudo que esteja dentro dela tenha o mesmo resultado escrito no editor de texo. -->
+<h2>Citações Simples</h2>
+<p>Como diria o pai de um amigo,<q> o computador é um burro rapido</q> </p>
+<h2>Citações Completas</h2>
+<p>Segundo Jeff no livro HTML para Leigos</p>
+<blockquote cite="">
+A diferença entre elementos online e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto <!--Existem dois tipos de citações , as citações simples que são usadas geralmente no meio de um paragrafo, oque são citações? citações são menções de outros que fazemos que descreve perfeitamente algo que queremos falar. existe tambem a citação completa , que usamos a tag <blackquote> essa tag traz consigo uma quebra de linha e um espaçamento horizontal a direita na sua forma de organização. importenta ressaltar, temos um parametro chamado cite="" "que usamos quando queremos colocar a referencia do texto original. importante ressaltar, que não será como um link que ficara disponivel que te levara ao conteudo original do autor, porem todos os mecanismos internos do google entende de qual endereço foi retirado a referencia.-->
+
+</blockquote>
+<h2>Texto invertido</h2>
+<p> <bdo dir="rtl"> Estou aprendendo a criar cosas em HTML</bdo></p>
+<!--Os textos invertidos como o proprio nome ja diz, inverte o texto criado ao usar a tag bdo com o parametro dir, e espeficiando o lado sendo rtl= da direita para esquerda ou ltr= da esquerda para a direita. -->
+</body>
+
+
+
+
+<h2>Abreviações</h2>
+<p>Eu estou estudando <abbr title="Hyper texto markup Language">HTML</abbr></p> <!--Ao usamos essa tag, não tem nenhum resultado aparente visual, porem para os mecannismo do google, passam a entender do que as siglas se tratam, e nós ao passar o mouse em cima da sigla, podemos visualizar o nome completo da sigla abreviada.-->
+
+
+
+</html>

@@ -1,0 +1,129 @@
+*{
+
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.container{
+    padding: 0 2%;
+    margin: 0 auto;
+    max-width: 1000px;
+    min-width: 500px;
+}
+.formulario{
+    background-color: blue;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+fieldset{
+
+    border: transparent;
+
+
+}
+
+label{
+    text-align: left;
+    display: block;
+    padding: 10px;
+    text-indent: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+input{
+    width: 90%;
+    padding: 7px 0;
+
+}
+
+select{
+
+    width: 90%;
+    padding: 7px 0;
+
+}
+
+.especial{
+
+    text-align: left;
+   
+
+}
+
+
+input[type="radio"] {
+
+    margin-left: -260px;
+    display: block;
+
+}
+
+ .dot{
+
+    display: block;
+    position: relative;
+    top: -17px;
+    right: 250px;
+
+}
+
+
+
+.radio{
+    text-align: left;
+    padding: 5px;
+    
+}
+
+.radio span{
+   margin-left: -280px;
+    display: inline-block;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+     margin-left: -240px;
+
+border: 1px solid red;
+
+}
+
+
+input[type="submit"] {
+
+    background-color: lime;
+    color: white;
+
+}
+
+.labe .ok{
+
+    display: inline-block;
+    font-size: 14px;
+    padding: 0;         
+    text-indent: -500px;
+
+}
+
+
+.labe label{
+
+    padding: 0;
+    padding-top: 15px;
+
+}
+
+textarea{
+    margin: 8px;
+    width: 90%;
+}

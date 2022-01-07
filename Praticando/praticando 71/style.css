@@ -1,0 +1,85 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+
+
+}
+
+header{
+
+    height: 120px;
+    position: relative;
+
+
+}
+
+
+.logo{
+
+    width: 50%;
+    text-indent: -3000px;
+    margin-top: 20px;
+    margin-left: 40px;
+   
+}
+
+.logo h1{
+
+    background: url('https://static.wixstatic.com/media/a8d7e3_648089c760204e5a921d2f6d6202af0c~mv2.png/v1/fill/w_91,h_64,al_c,q_85,usm_0.66_1.00_0.01/WhatsApp_Image_2021-08-23_at_11_19_44-removebg-preview.webp'); 
+    height: 86px;
+    width: 121px;
+
+}
+
+
+nav{
+    margin-top: 20px;
+  
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 50%;
+    
+}
+
+
+nav .navegaum a{
+
+    float: left;
+    margin-left: 20px;
+   
+}   
+
+nav .navegaum{
+
+    margin-left: 30px;
+
+
+}
+
+nav .navegadois{
+
+    margin-right: 30px;
+
+}
+
+
+nav .navegadois a{
+    margin-right: 20px;
+    float: right;
+  
+}
+
+
+
+
+
+.ok{
+
+    background-color: violet;
+    height: 20px;
+
+}

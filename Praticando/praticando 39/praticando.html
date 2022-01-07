@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Praticando</title>
+<style>
+ @font-face{
+font-family: 'Roboto' ; 
+src: url('fontes/Roboto-Bold.ttf') format('truetype'), url('fontes/Roboto-BoldCondensedItalic.ttf') format('truetype');
+
+
+ }
+   
+ body{
+
+    font: normal bolder 16px 'Roboto';
+
+ }
+
+a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+a:link{
+    color: darkolivegreen;
+
+
+
+}
+
+a:visited{
+
+    color: orangered;
+    
+}
+
+a:active{
+
+    color: orange;
+
+
+
+}
+
+a:focus{
+
+    color: lightseagreen;
+
+
+
+}
+
+
+a:hover{
+background-color: red;
+text-decoration: underline;
+color: white;
+
+}
+
+
+/*ul > li:first-child{
+
+    color: red; 
+
+
+}
+
+
+ ul > li:last-child{
+
+
+    
+    color: orange;  
+
+
+ } 
+
+
+ ul > li:nth-of-type(2n){
+
+
+    color: #1A23FF;
+ }
+
+
+ input:disabled{
+
+    border: 2px solid red;
+
+
+ }
+.especial:invalid{
+
+    border: 4px solid orangered;
+
+
+
+}
+.especial:valid{
+
+
+    border: 4px solid green;
+
+}
+
+
+input:required{
+
+    border: 3px solid red;
+    
+
+
+}
+
+input:optional{
+
+ border: 3px solid lime;
+
+
+}
+
+
+.especial:read-only{
+
+    border: 3px solid magenta;
+
+
+}
+
+input:read-write{
+
+    border: 3px solid greenyellow;
+
+
+}
+
+input:in-range{
+
+    border: 4px solid green;
+
+
+}
+
+input:out-of-range{
+
+
+border: 4px solid orangered;
+
+}
+
+
+input:checked{
+
+    opacity: 0.4;
+
+
+
+}
+
+ p::after{
+
+    content: 'Lindo de obnito';
+    font-weight: bolder;
+    font-size: 48px;
+ }
+
+ p::before{
+
+    content: 'lindao';
+    font-weight: bolder;
+    font-size: 48px;
+ }
+
+ ::selection{
+
+    background-color:red;
+
+ }
+
+ p::first-letter{
+
+    color: red;
+    font-size: 48px;
+
+
+ } 
+*/
+
+
+
+p::first-line{
+
+color: blue;
+
+
+
+}
+</style>
+
+
+
+
+
+</head>
+<body>
+    <h1>Pseudoclasses</h1>
+    
+    
+    <h2>Links</h2>
+        <a href="https://www.youtube.com">link um</a> <br>
+        <a href="#">link dois</a> <br>
+        <a href="#"> link tres</a> <br>
+    
+        <h2>Listas</h2>
+        <ul>
+
+            <li>Flamengo</li>
+            <li>Palmeiras</li>
+            <li>Atletico Mineiro</li>
+            <li>Corinthians</li>
+            <li>Flamengo</li>
+            <li>Palmeiras</li>
+            <li>Atletico Mineiro</li>
+            <li>Corinthians</li>
+            <li>Flamengo</li>
+            <li>Palmeiras</li>
+            <li>Atletico Mineiro</li>
+            <li>Corinthians</li>
+            <li>Flamengo</li>
+            <li>Palmeiras</li>
+            <li>Atletico Mineiro</li>
+            <li>Corinthians</li>
+        </ul>
+    
+    <h2>formularios</h2>        
+
+        <input type="text" disabled> <br>
+        <input type="email"  class="especial" readonly value="joao gostoso"> <br> 
+        <input type="checkbox" required > <br>
+        <input type="number" value="60" min="1" max="59" > <br>
+
+
+
+        <h1>Pseudoelemento</h1>
+            
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt doloremque labore quisquam, est voluptatum at itaque odit nemo ab et quam aliquid iusto minus consequuntur delectus sapiente dolores ex velit.</p>
+        &#x1f600;
+
+    </body>
+
+
+
+</html>

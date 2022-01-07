@@ -1,0 +1,35 @@
+
+.container{
+    height: 900px;
+    background-color: red;
+    display:flex;
+    flex-direction: row; /* direção, linha ou coluna */
+    flex-wrap:nowrap;    /* Quebra ou nao quebra */
+    justify-content: space-around; /* Horizontal */  
+    align-items: center; /*Vertical */
+ /* Configurações para container pai (FLEX) */ 
+}
+
+.filho{
+    border: 1px solid rgb(82, 82, 82);
+    background-color: white;
+    margin: 4px;
+   
+    width: 40%;
+    height: 200px;
+    flex-basis: 100px;
+    flex-grow: 2;
+
+}
+.filho1{
+
+    flex-shrink: 4;
+
+   
+
+}
+.filho span{
+    line-height: 200px;
+
+
+}

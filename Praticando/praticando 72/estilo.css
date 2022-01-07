@@ -1,0 +1,125 @@
+
+
+@keyframes titulos{
+
+    from{
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+    }
+    
+    
+    to{
+        border-radius: 50%;
+        top: 70%;
+        left: 70%;
+        right: 70%;
+        bottom: 70%;
+    }
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+   
+
+
+
+}
+
+
+body, html{
+
+    height: 100%;
+   
+
+
+
+}
+
+.container, .container-dois{
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+
+.container{
+
+    background-image: url('imagens/imagem1.jpg');
+
+
+
+}
+
+
+.container-dois{
+
+    background-image: url('imagens/imagem6.jpg');   
+
+
+}
+
+.conteudo{
+
+    padding: 40px;
+    background-color: rgba(187, 187, 187, 0.623);
+    
+}
+
+
+.conteudo h2{
+    padding: 10px 15px;
+    text-align: center;
+    color: rgb(81, 114, 126);
+   
+}
+
+.conteudo p{
+
+    text-align: justify;
+
+
+}
+
+
+.conteudo-titulo{
+    
+    
+    border-radius: 20px 50px;
+    padding: 20px 30px;
+    font: normal bold 25px Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(104, 87, 58);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+   
+
+
+
+}
+
+.conteudo-titulo h1{
+
+    animation-name: titulos;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+
+
+}

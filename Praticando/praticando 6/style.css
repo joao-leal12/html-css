@@ -1,0 +1,21 @@
+
+
+.container{
+    width: 700px;
+    height: 700px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.caixa1, .caixa2, .caixa3{
+
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+
+
+
+}

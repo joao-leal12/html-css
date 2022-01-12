@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+
+    font-family: sans-serif;
+
+}
+a{
+
+    text-decoration: none;
+
+
+}
+.container{
+
+    max-width: 1300px;
+    min-width: 400px;
+    margin: auto;
+
+
+}
+.center{
+
+    height: 500px;
+    background-color: #f78b00;
+
+}
+header{
+  
+    display: flex;
+    padding: 50px 20px;
+    justify-content: space-between;;
+    align-items: center;
+    max-width: 1000px;
+    min-width: 400px;
+    margin: auto;
+}
+header h1{
+    color: #00285f;
+    font-size: 24px;
+    font-weight: normal;
+
+}
+
+header nav a{
+    padding: 10px;
+    color: #00285f;
+
+
+}
+header nav{
+
+   
+
+
+}
+header nav .btn-login{
+
+    padding-left: 20px;
+
+
+}
+
+strong{
+
+    font-weight: bolder;
+
+
+}
+
+
+/* section *****/
+
+
+
+section{
+
+    background-color: #00285f;
+    height: 450px;
+    width: 960px;
+    max-width: 1000px;
+    border: 1px solid blue;
+    border-radius: 14px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+section img{
+
+    width: 100%;
+    float: right;
+
+
+}
+
+
+section .imag{
+    margin-top: 15%;
+    float: right;
+  
+    width: 50%;
+}
+
+section .texto{
+    width: 30%;
+    float: left;
+   
+    color: #fff;
+    margin-top: 18%;
+    margin-left: 18%;
+    padding: 20px;
+    text-align: right;
+}
+
+
+
+section .texto h3{
+
+    padding:10px 0;
+    font-size: 1.3em;
+
+
+}
+
+
+
+section .texto p{
+
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 0.9em;
+
+
+
+}
+
+

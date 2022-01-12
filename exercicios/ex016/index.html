@@ -1,0 +1,167 @@
+<!DOCTYPE html> 
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Criando tabeals grande</title>
+            <style>
+
+                body{
+
+                    font-family: Arial, Helvetica, sans-serif;
+
+
+                }
+                table{
+                    margin: auto;
+                    border-collapse: collapse;
+                    width: 500px;
+                    
+                }
+
+                tr{
+                    border: 1px solid black;
+
+
+                }
+
+                td, th{
+               
+                  
+
+
+
+                    padding: 5px;
+                }
+                tr:nth-child(2n){
+
+                    background-color: gray;
+
+
+                }
+                caption{
+
+                    background: gray;
+                    color: white;
+                    font-size: 3em;
+
+
+
+                }
+
+
+
+            </style>
+
+        </head>
+        <body>
+
+            
+
+            <table>
+                <caption>Criando uma tabelona</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Unidade federativa </th>
+                        <th scope="col" style="width: 50px; padding: 10px;">População</th>
+
+                    </tr>
+
+
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>São Paulo</td>
+                        <td>46 649 132</td>
+
+                    </tr>
+                    <tr>
+                        <td>Minas Gerais</td>
+                        <td>21 411 923</td>
+
+
+                    </tr>
+                    <tr>
+
+                        <td>Rio de janeiro </td>
+
+                        <td>17 463 923</td>
+
+                    </tr>
+                    <tr>
+
+                        <td>Bahia</td>
+
+                        <td>14 985 284</td>
+
+                    </tr>
+                    <tr>
+                        <td>Paraná </td>
+                        <td>11 597 484 </td>
+
+
+
+                    </tr>
+                    <tr>
+
+                        <td>Rio grande do sul</td>
+
+                        <td>11 466 630</td>
+
+                    </tr>
+                    
+                    <tr>
+                        <td>
+
+                            Pernambuco
+
+                        </td>
+                        <td>9 764</td>
+
+                        </tr>
+                        <tr>
+
+                            <td>Ceara </td>
+
+                            <td>9 240 580</td>
+                        </tr>
+
+                        <tr> <td rowspan="3"    >Roraima</td>
+                        </tr>
+                        <tr>
+                            
+                            <td>Olouco meu </td>
+                            <td>O louco</td>
+                        
+                        </tr>
+            
+                        <tr>
+                            <td>O louquinho meu </td>
+
+
+                        </tr>
+               </tbody>    <!--fim tbody-->
+
+              <tfoot>
+                <tr>
+                    <th scope="row">Total</th>
+                    <td><strong><ins>21 630 098 980</ins></strong></td>
+
+
+                </tr>
+
+
+              </tfoot> <!--fim tfoot-->
+
+
+            </table>
+
+        </body>
+
+
+
+
+
+
+    </html>

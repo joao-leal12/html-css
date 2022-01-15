@@ -1,0 +1,94 @@
+
+
+
+
+
+.container{
+
+    width: 100%;
+    background-color: red;
+    height: 300px;
+
+}
+
+.box-um{
+
+    width: 35%;
+    background-color: blue;
+    float: left;
+    padding: 12px;
+}
+
+.box-dois{
+
+    width: 35%;
+    background-color: black;
+    float: right;
+    color: white;
+    padding: 12px;
+
+}
+
+
+.clear{
+
+    clear: both;
+
+}
+
+
+@media (max-width: 500px) {
+
+    .container{
+        
+        background-color: lightblue;
+        height: auto;
+
+    }
+
+
+    .box-um{
+        float: none;
+        width: 100%;
+
+
+
+
+    }
+
+    .box-dois{
+
+        float: none;
+        width: 100%;
+
+
+    }
+
+}
+
+@media (min-width: 502px) and (max-width: 798px) {
+
+    .container{
+
+        background-image: linear-gradient(45deg, red, rgba(255, 0, 0, 0.616), rgb(8, 6, 6) );
+
+
+
+    }
+
+    .box-um{
+
+        float: left;
+
+
+    }
+
+    .box-dois{
+
+        float: left;
+
+
+    }
+
+
+}

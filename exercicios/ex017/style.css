@@ -1,149 +1,552 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 
-}
-
-body{
-
-    font-family: sans-serif;
-
-}
-a{
-
-    text-decoration: none;
 
 
 }
-.container{
 
-    max-width: 1300px;
-    min-width: 400px;
-    margin: auto;
+body, html{
+
+    font-family: 'Roboto', sans-serif;;
+    height: 100%;
+}
+:root{
+
+    --laranja: #f78b00;
+    --azul: #00285f;
+    --outracor: #ededed;
+
+
 
 
 }
-.center{
 
-    height: 500px;
-    background-color: #f78b00;
 
-}
+
 header{
-  
-    display: flex;
-    padding: 50px 20px;
-    justify-content: space-between;;
-    align-items: center;
-    max-width: 1000px;
-    min-width: 400px;
-    margin: auto;
+
+    background-color: #f78b00;
+    height: 500px;
+   
+   
 }
-header h1{
-    color: #00285f;
-    font-size: 24px;
+
+
+.center{
+     
+    height: 120px;
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;    
+    align-items: center;        
+}   
+
+
+#parte-dois-header{
+
+    background-color: var(--azul);
+    border-radius: 7px;
+    margin: 0 auto;
+    height: 450px;    
+    max-width: 1000px;
+    min-width: 300px;
+    padding:3%;
+    position: relative;
+    z-index: 4;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.459);
+
+}
+
+
+header .center h1{
+
+    color: var(--azul);
     font-weight: normal;
+    
+
+}
+header .center h1:hover{
+
+    cursor: pointer;
+
 
 }
 
 header nav a{
-    padding: 10px;
-    color: #00285f;
+
+    padding-right: 12px;
+    color: var(--azul);
+    text-decoration: none;
+    font-size: 1.1em;     
 
 
 }
-header nav{
 
-   
+header nav a:hover{
+
+    color: #00285fb2;
+
 
 
 }
+
+
 header nav .btn-login{
 
-    padding-left: 20px;
+    margin-left: 7px;
+    border: 1px solid var(--azul);
+    background-color: transparent;
+    padding: 12px 40px;
+    border-radius: 4px; 
+    font-weight: bold;
 
 
 }
 
-strong{
 
-    font-weight: bolder;
+header nav .btn-login:hover{
 
+
+    background-color: var(--azul);
+    color: white;
+     transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
 
 }
 
 
-/* section *****/
 
+header #parte-dois-header .midia img{
 
-
-section{
-
-    background-color: #00285f;
-    height: 450px;
-    width: 960px;
-    max-width: 1000px;
-    border: 1px solid blue;
-    border-radius: 14px;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-
-
-
-
-section img{
 
     width: 100%;
-    float: right;
+
+
+
 
 
 }
 
 
-section .imag{
-    margin-top: 15%;
-    float: right;
-  
-    width: 50%;
-}
-
-section .texto{
-    width: 30%;
+header #parte-dois-header .midia{
+    margin-top: 12%;
+    
     float: left;
-   
-    color: #fff;
-    margin-top: 18%;
-    margin-left: 18%;
-    padding: 20px;
-    text-align: right;
-}
-
-
-
-section .texto h3{
-
-    padding:10px 0;
-    font-size: 1.3em;
-
+    width: 50%;
+    
 
 }
 
 
+header #parte-dois-header .texto{
 
-section .texto p{
+    float: left;
+    width: 45%;
+    color: white;
+    margin-top: 15%;
+    padding: 12px;
+}
 
-    line-height: 1.4em;
-    text-align: center;
-    font-size: 0.9em;
+
+header #parte-dois-header .texto h3{
+
+    padding: 12px;
+    font-size: 1.4em;
+
 
 
 
 }
 
+/*Conteudo central */
+    main{
+        max-width: 1000px;
+        min-width: 350px;
+        position: relative;
+        margin: 0  auto;
+    }
 
+    main #catalogo p{
+
+        padding: 12px;
+
+
+
+    }
+
+    main #catalog p span{
+
+        font-size: 1.1em;
+
+
+    }
+
+    main #catalogo{
+
+        margin-top: 12%;
+        
+       
+
+    }
+
+    main #catalogo .formulario{
+
+        margin: 0 auto;
+        background-color: var(--outracor);
+        padding: 50px;
+        border-radius: 6px;
+    }
+    main #catalogo .formulario input{
+
+
+        width: 80%;
+        padding: 18px;
+
+    }
+
+    button{
+
+        padding: 15px 50px;;
+        margin-left: -12px;
+        background-color: var(--azul);
+        color: white;
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+
+    button:hover{
+
+        
+        background-color: #01193a;
+        
+
+    }
+
+
+
+
+
+
+
+    main #mostruario{
+
+        margin-top: 3%;
+        display: flex;
+        flex-wrap: wrap;    
+        width: 100%;
+        
+        
+
+    }
+
+    main #mostruario .carros{
+        padding: 20px;
+        width: 30%;
+        background-color: var(--outracor);
+        margin: 2% 1.6%; 
+        border-radius: 6px;
+  
+
+
+    }
+
+    main #mostruario .carros img{
+
+        width: 100%;
+
+
+    }
+
+
+
+
+    main #mostruario .carros a{
+
+        color: white;
+        background-color: var(--azul);
+        display: block;
+        width: 100%;
+        margin-top: 2%;
+        padding:  20px 0;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+    
+    }
+
+    main #mostruario .carros a:hover{
+
+        background-color: var(--outracor);
+        color: var(--azul);
+        border: 1px dashed var(--azul);
+
+
+    }
+
+
+    main #sobre{
+       
+        height: 600px;
+        border-radius: 12px;
+        overflow-y: hidden;
+        padding: 2%;
+        background-color: var(--outracor);
+    
+    
+    }
+
+    main #sobre .caixa-sobre{
+
+        background: #000000a1 url('imagens/about.png') no-repeat 2%;
+        
+        
+        height: 100%;
+        width: 30%;   
+        float:left;
+    
+    }
+
+
+
+    main #sobre aside{
+
+        background-color: var(--outracor);
+        width: 70%;
+        float: right;
+        height: 500px;
+        padding: 2% 5%;
+    
+    }
+
+
+    main h4{
+
+        padding: 20px;
+       
+    }
+    main #sobre aside h3{
+
+        text-align: right;
+        
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-weight: bolder;
+      
+    }
+
+    main #sobre aside p{
+
+      color: rgba(0, 0, 0, 0.767);
+        text-align: right;
+        line-height: 1.5em;
+        font-size: 1.2em;   
+        text-shadow: 1px 1px 1px 4px rgba(0, 0, 0, 0.404); 
+        font-weight: lighter    }
+
+
+     #features{
+
+            height: 100%;
+            background-color: var(--outracor);
+            padding: 50px 0;
+            margin: 5% auto;
+           
+            
+        }
+        
+        #features .features-itens{
+
+            background-color: white;
+            margin:  auto;
+            max-width: 1000px;
+            min-width: 300px;
+            padding: 30px 0;
+            border: 1px solid black;
+            display: flex;  
+             flex-wrap: wrap;
+             height: 600px;
+            
+        }
+
+        #features .features-itens itens{
+
+           
+            border: 1px dashed black;
+            height: 150px;
+            width: 20%;
+             border: 1px dashed black;
+         
+       
+        }
+
+        #features .features-itens .itens img{
+
+            width: 64px;
+            height: 64px;
+
+
+        }
+       
+
+/* responsividadde*/
+
+
+
+@media (max-width: 600px) {
+
+    header .center nav a{
+
+
+        display: none;
+
+
+
+
+    }
+    header{
+
+        padding: 12px;
+
+
+
+    }
+    header .center nav .btn-login{
+
+        display: block;
+
+
+    }
+    header  #parte-dois-header{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+    }
+
+    header  #parte-dois-header .midia{
+            order: 1;
+            float: none;
+            width: 100%;
+            height: 200px;
+            text-align: center;
+        
+        }
+
+        header  #parte-dois-header .midia img{
+
+            width: 70%;
+            
+
+
+
+        }
+
+    header  #parte-dois-header .texto{
+
+         float: none;
+         order: 2;
+        width: 100%;
+       
+        position: absolute;
+        top: 40%;    
+    
+    }
+    /* Fim-header-responsivo */
+
+    main{
+
+        padding: 3%;
+
+
+    }
+    
+    main #catalogo{
+
+        margin-top: 20%;
+      
+
+
+    }
+
+    main #catalogo .formulario{
+
+        width: 80%;
+        padding: 40px 10px;
+        text-align: center; 
+    }
+
+    main #catalogo .formulario input{
+
+        width: 70%;
+        border: 0;
+        outline: 0;
+        
+
+
+    }
+    main #catalogo .formulario button{
+
+        padding: 16px 20px;
+        border: 0;
+        outline: 0;
+
+
+    }
+
+     /*Fim-seção-catalogo-responsivo */
+
+
+
+    main #mostruario {
+        max-width: 1000px;
+        min-width: 300px;
+        display: block;
+        width: 100%;
+    }
+
+    main #mostruario .carros{
+        display: block;
+        width: 100%;    
+        margin: 4%  auto;
+    }
+
+
+
+    main #sobre .caixa-sobre{
+
+        display: none;
+
+
+    }
+    main #sobre aside {
+
+        width: 100%;
+        text-align: left;
+    }
+    
+    main #sobre aside h3{
+
+
+        text-align: center;
+
+
+    }
+    main #sobre aside p{
+
+        text-align: left;
+  
+    }
+}
+ /* media */ 

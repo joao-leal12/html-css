@@ -357,38 +357,41 @@ header #parte-dois-header .texto h3{
 
             height: 100%;
             background-color: var(--outracor);
-            padding: 50px 0;
-            margin: 5% auto;
-           
-            
+          
         }
-        
-        #features .features-itens{
+        .center-features{
 
-            background-color: white;
-            margin:  auto;
             max-width: 1000px;
             min-width: 300px;
-            padding: 30px 0;
-            border: 1px solid black;
-            display: flex;  
-             flex-wrap: wrap;
-             height: 600px;
-            
+            padding: 50px 0;
+            margin: 5% auto;
+            padding: 0 2%;
+
+
+        }
+        #features .features-items{
+
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            border-radius: 16px;
+            max-width: 1000px;
+            min-width: 300px;        
+            background-color: white;
+            padding: 30px;
         }
 
-        #features .features-itens itens{
+        #features .features-items .itens{
 
-           
-            border: 1px dashed black;
             height: 150px;
-            width: 20%;
-             border: 1px dashed black;
-         
-       
+            max-width: 420px;
+            margin: 10px;
+            border: 1px dashed rgba(0, 0, 0, 0.089);
+            padding: 12px;  
+        
         }
 
-        #features .features-itens .itens img{
+        #features .features-items .itens img{
 
             width: 64px;
             height: 64px;
@@ -396,7 +399,19 @@ header #parte-dois-header .texto h3{
 
         }
        
+        #features   .titulo{
 
+           padding: 12px 0;
+            
+
+        }
+    #features .center-feature .titulo h3 span strong{
+
+        font-weight: bolder;
+
+
+
+    }
 /* responsividadde*/
 
 

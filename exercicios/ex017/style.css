@@ -300,7 +300,8 @@ header #parte-dois-header .texto h3{
         overflow-y: hidden;
         padding: 2%;
         background-color: var(--outracor);
-    
+        margin-bottom: 4%;
+
     
     }
 
@@ -357,15 +358,26 @@ header #parte-dois-header .texto h3{
 
             height: 100%;
             background-color: var(--outracor);
-          
-        }
+            
+            display: flex;
+            align-items: center;
+            padding-top: 30px;
+            
+        
+        }          
         .center-features{
 
             max-width: 1000px;
             min-width: 300px;
-            padding: 50px 0;
-            margin: 5% auto;
-            padding: 0 2%;
+            margin: 0 auto;
+           
+           
+           
+        }
+
+        #features  .center-features .titulo{
+
+         padding-top: 30px;
 
 
         }
@@ -378,7 +390,9 @@ header #parte-dois-header .texto h3{
             max-width: 1000px;
             min-width: 300px;        
             background-color: white;
-            padding: 30px;
+            padding: 40px;
+            justify-content: space-around;
+        
         }
 
         #features .features-items .itens{
@@ -412,6 +426,86 @@ header #parte-dois-header .texto h3{
 
 
     }
+    footer{
+
+     padding-top: 100px;
+    background-color: var(--outracor);
+    }
+   
+    .footer-um{
+
+        height: 200px;
+        background-color: #f78b00;
+        
+    }
+    .content-footer-um{
+
+        display: flex;
+      
+        flex-flow: row wrap;
+        justify-content: space-around;
+        padding: 40px 0;
+    }
+
+    footer .footer-letter{
+
+        color: white;
+
+
+    }
+
+    footer .footer-letter h4{
+
+        padding-bottom: 12px;
+
+    }
+
+    footer .footer-letter p,address{
+
+        font-size: 0.9em;
+
+
+    }
+
+
+
+    .footer-letter img{
+
+        width: 32px;
+        height: 32px;
+
+
+    }
+
+    .footer-dois{
+        height: 50px;
+        width: 100%;
+        background-color: var(--azul);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    footer .footer-dois .content-footer-dois{
+
+        color: white;
+        font-size: 1em;
+        text-align: center;
+        padding: 10px 0;    
+        
+}
+    footer .footer-dois .content-footer-dois h4{
+        
+     
+
+
+    }
+
+
 /* responsividadde*/
 
 
@@ -562,6 +656,37 @@ header #parte-dois-header .texto h3{
 
         text-align: left;
   
+    }
+
+
+   #features{
+
+       
+        height: auto;    
+        margin: auto;
+        padding: 0 2%;
+
+
+    }
+    .footer-um{
+        
+        height: 100%;
+      
+
+
+    }
+    .content-footer-um{
+
+        flex-direction: column;
+        padding: 30px;
+
+    }
+  
+    .footer-letter{
+
+        display: block;
+        padding: 20px 0;    
+
     }
 }
  /* media */ 

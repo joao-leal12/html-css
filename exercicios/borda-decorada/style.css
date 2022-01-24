@@ -1,0 +1,57 @@
+
+
+ body{
+
+    background-color: black;
+
+
+ }
+
+.container{
+
+    width: 200px;
+    height: 200px;
+    margin: 30px auto; 
+   
+    overflow: hidden;
+    position: relative;
+    animation: testando 3s infinite ease-in-out;
+}
+
+
+.animated{
+
+    background: #de0d9c;
+    width: 400px;
+    height: 190px;
+    position: absolute;
+   
+}
+
+
+.content{
+
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 198px;
+    width: 198px;
+    z-index: 1;
+    border: 2px solid #de0d9c;
+  
+
+
+}
+
+@keyframes testando {
+    
+    100%{
+
+        transform: rotate(360deg);
+
+
+    }
+
+
+}

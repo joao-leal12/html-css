@@ -1,0 +1,164 @@
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+html, body{
+
+    height: 100%;
+    min-height: 100%;
+    
+    background: url(imagens/capa.png), url(imagens/ruido.png), linear-gradient(
+    50deg
+     ,#ff4169,#7c26f8);
+}
+
+header{
+
+    background-color: rgba(0, 0, 0, 0.534);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
+
+img{
+
+    width: 142px;
+
+
+
+
+}
+
+
+
+.container{
+
+
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+
+nav{
+
+    display: flex;
+
+    align-items: center;
+
+
+}
+
+
+nav .nav-um{
+
+    padding: 7px 30px;
+
+
+
+}
+
+
+
+nav a{
+
+
+    padding: 5px 13px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.nav-dois{
+
+    border-left: 1px solid white;
+    padding-left: 10px;
+
+}
+
+
+.capa{
+
+
+    background-image: url('imagens/ruido.png');
+   
+    position: relative;
+    z-index: 2;
+
+}
+
+
+.center .conteudo{
+
+
+    position: relative;
+    z-index: 3;
+    color: white;
+
+
+}
+
+.center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.center .conteudo h1{
+
+    font-size: 6em;
+    padding: 12px 0;
+
+}
+
+
+.center .btn{
+
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-gap: 7px;
+    padding: 30px;
+    justify-content: center;
+
+}
+
+
+.center .btn button{
+
+    padding: 15px;
+    border-radius: 26px;
+    border: 0;
+    outline: 0;
+    font-size: 1.5em;
+    cursor: pointer;
+
+
+
+}
+
+.center .btn button:nth-child(2n){
+
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+
+
+}

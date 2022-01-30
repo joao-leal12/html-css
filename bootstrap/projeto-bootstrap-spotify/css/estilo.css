@@ -1,8 +1,4 @@
-img{
-    width: 142px;
 
-
-}
 
 html,body {
 
@@ -24,7 +20,7 @@ body{
 
     background-image: url('../imagens/capa.png'), url('../imagens/ruido.png'), linear-gradient(50deg, #ff4169, #7c26f8);
     background-attachment: fixed;
-
+    overflow-x: hidden;
 
 }
 
@@ -86,7 +82,7 @@ nav.navegaçao{
 /*capa central */
 
 
-
+/*tipografia */
 
 
 h1{
@@ -99,7 +95,36 @@ h1{
 
 
 }
+h2{
 
+    font-size: 3em;
+    letter-spacing: -0.04em;
+    font-weight: 700;
+
+
+
+
+
+}
+
+
+h3{
+
+    font-size: 2em;
+    letter-spacing: -0.04em;
+    font-weight: 700;
+
+
+
+
+}
+
+#servicos h2, h3{
+
+    color: #7c25f8;
+
+
+}
 
 /* btns */
 
@@ -123,6 +148,59 @@ h1{
 
     background-color: #6207e3;    
     color: white;
+
+}
+
+
+#servicos{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+
+
+
+}
+
+#recursos {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+
+}
+
+#recursos h2{
+    color: white;
+
+
+}
+
+#recursos h3{
+
+    color: #9bf0e1;
+
+
+}
+
+#recursos p{
+    color: white;
+
+
+}
+.rotacionar{
+
+    transform: rotate(30deg);
+    padding-left: 80px;
+
+
+}
+.albuns{
+
+    padding: 10px 0;
+
+
 
 }
 

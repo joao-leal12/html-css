@@ -204,6 +204,53 @@ h3{
 
 }
 
+/*footer */
+
+
+footer{
+
+    padding: 50px 0 20px 0;
+    background-color: black;
+    position: relative;
+
+}
+
+footer .navbar-nav a{
+
+    color: white;
+    font-size: 0.8em;
+
+
+}
+
+footer h4{
+
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #919496;
+
+
+}
+footer ul li a:hover{
+
+    text-decoration: none;
+
+
+}
+
+footer ul{
+
+    list-style: none;
+
+
+}
+footer ul li{
+
+    float: right;
+    padding: 0 5px;
+
+
+}
 /* Responsividade */ 
 
 

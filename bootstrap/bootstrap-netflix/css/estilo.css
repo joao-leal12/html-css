@@ -5,8 +5,9 @@ body, html{
 
     background: url('../imagens/netflix.jpg') no-repeat center;
     background-size: cover;
-    height: 100%;
-
+    
+    height:100%;
+    
 
 }
 
@@ -20,9 +21,6 @@ body, html{
 
 
 }
-
-
-
 
 
 
@@ -48,11 +46,15 @@ body, html{
 }
 
 
+
 header{
 
-    position: relative;
-    z-index: 1;
-  
+    z-index: 2;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+
 
 }
 
@@ -60,9 +62,9 @@ header{
 
     position: relative;
     z-index: 5;
-    height: 82%;
-    
-
+    height: 100%;
+    border-bottom: 8px solid #222;  
+    padding-top: 40px;
 
 }
 
@@ -95,7 +97,7 @@ option{
 /* Tipografia */
 
 
-h2{
+#main h2{
 
     color: white;
     font-size: 3.125rem;
@@ -104,7 +106,7 @@ h2{
 
 }
 
-h3{
+#main h3{
 
     color: white;
     text-align: center;
@@ -113,7 +115,7 @@ h3{
 }
 
 
-p{
+#main p{
     color: white;
     white-space: nowrap;
     font-size: 1.2rem;
@@ -143,4 +145,169 @@ p{
     color: white;
     font-weight: 700;
     font-size:  1.625rem;
+}
+
+#segunda-secao{
+
+
+    background-color: black;
+    padding: 50px 40px;
+    border-bottom: 8px solid #222;
+ 
+}
+
+
+
+#segunda-secao h3{
+
+    font-size: 3.125rem;
+    line-height: 1.1;
+    color: white;
+    text-align: left;
+    margin-bottom: 0.5rem;  
+
+}
+
+#segunda-secao p{
+
+    font-size: 1.625rem;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+}
+
+
+
+.p-rl{
+
+
+    position: relative;
+
+
+
+}
+
+.p-rl img{
+
+    position: relative;
+    z-index: 10;
+
+
+
+}
+
+
+.p-rl video{
+
+
+    position: absolute;
+    top: 87px;
+    left: 71px;
+    width: 73%;
+
+}
+
+
+
+.col-md-padding{
+
+
+    padding-bottom: 30px;
+
+
+
+}
+
+
+
+
+@media (max-width: 576px) {
+
+
+
+    
+    #main{
+
+        margin-top: 50px;
+        height: 90%;
+
+    }
+
+    #main h2{
+
+        font-size: 1.625rem;
+        
+
+
+    }
+
+    #main h3{
+
+        font-size: 1.1rem;
+        font-weight: normal;
+
+    }
+
+    #main p{
+
+        font-size: 1.1rem;
+        white-space: normal;
+        padding: 0 30px;
+        font-weight: normal;
+    
+    }
+
+
+    .form-inline .form-control{
+
+        width: calc(100% - 90px);    
+        font-size: 0.9rem;
+
+    }
+
+
+    header img{
+
+
+        width: 100px;   
+
+
+    }
+
+   
+
+    .input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child){
+
+        width: 100%;
+        padding: 12px 15px;
+
+
+
+    } 
+
+
+
+.input-group-append .btn, .input-group-prepend .btn{
+
+
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 10px 30px;
+    display: block;
+    margin-top: 7px;
+    border-radius: 0;    
+}
+
+.input-group {
+
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+    
+
 }
